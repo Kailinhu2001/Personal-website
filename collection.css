@@ -1,0 +1,119 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-image: url("../img/p5.PNG");
+	background-repeat : repeat;
+	background-size : cover;
+	background-attachment: scroll
+}
+
+.home img{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	margin-left:-10px;
+	margin-top:-30px;
+}
+
+.word{
+	margin-top: 60px;
+}
+
+.video{
+	position:relative;
+	width:1250px;
+	height:400px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 40px;
+	margin-bottom:50px;
+}
+
+.video video{
+	border-radius: 50px;
+	width: 400px;
+	height: 400px;
+
+}
+
+.video1 video:hover{
+	transform:scale(1.25);
+}
+.video2 video:hover{
+	transform:scale(1.25);
+}
+.video3 video:hover{
+	transform:scale(1.25);
+}
+
+
+.box{
+	position:relative;
+	width:1250px;
+	height:700px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: -200px;
+	margin-top: -40px;
+}
+
+
+.first img,.second img,.third img,.forth img{
+	margin-top: 100px;
+	image-rendering:-webkit-optimize-contrast;
+	width:280px;
+	height:280px;
+	background-color: #ffff99;
+	border-radius:15px;
+	color:white;
+	cursor:pointer;
+	position:relative;
+	transform: rotateX(50deg) rotateY(-15deg) rotate(45deg);
+	transition:all 0.4s ease-in;
+}
+
+.first img{
+	transform: rotateX(50deg) rotateY(-15deg) rotate(45deg);
+}
+
+.second img{
+	transform: rotateX(25deg) rotateY(-7.5deg) rotate(22.5deg);
+}
+
+.third img{
+	transform: rotateX(25deg) rotateY(7.5deg) rotate(-22.5deg);
+}
+
+.forth img{
+	transform: rotateX(50deg) rotateY(15deg) rotate(-45deg);
+}
+
+.first img:hover{
+	transform:rotateX(0deg) rotateY(0deg) rotate(0deg) translate(150px,200px) scale(1.5);
+	z-index:999;
+	image-rendering:-webkit-optimize-contrast;
+	}
+	
+.second img:hover{
+	transform:rotateX(0deg) rotateY(0deg) rotate(0deg) translate(75px,100px) scale(1.5);
+	z-index:999;
+	image-rendering:-webkit-optimize-contrast;
+	}
+	
+.third img:hover{
+	transform:rotateX(0deg) rotateY(0deg) rotate(0deg) translate(-75px,100px) scale(1.5);
+	z-index:999;
+	image-rendering:-webkit-optimize-contrast;
+	}
+
+.forth img:hover{
+	transform:rotateX(0deg) rotateY(0deg) rotate(0deg) translate(-150px,200px) scale(1.5);
+	z-index:999;
+	image-rendering:-webkit-optimize-contrast;
+	}
+	
